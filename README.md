@@ -16,7 +16,8 @@
 
 ## Problems with [rev 1]
 
-The first revision uses an MLT-8530 buzzer, which draws a lot of current (even with a 47Ω resistor), resulting in a voltage drop from the CR2032 battery and causing an MCU brownout. While this problem may be temporarily solved by using LIR2032 battery, I'm considering using a piezo buzzer in the next revision. 
+- The first revision uses an MLT-8530 buzzer, which draws a lot of current (even with a 47Ω resistor), resulting in a voltage drop from the CR2032 battery and causing an MCU brownout. While this problem may be temporarily solved by using LIR2032 battery, I'm considering using a piezo buzzer in the next revision.
+- When the latch transistors accidentally touched, it will sometimes turns on. Replacing the pull resistors might fix it.
 
 ---
 
